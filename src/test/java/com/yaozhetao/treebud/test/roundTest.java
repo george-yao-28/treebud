@@ -10,7 +10,7 @@ public class roundTest {
         boolean state = false;
         for(int i = 0;i<10;i++){
             state = true;
-            state = i>5 || state;
+            state = i>6 || state;
             System.out.println(state);
         }
     }
