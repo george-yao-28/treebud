@@ -9,7 +9,7 @@ public class roundTest {
     public void roundTest(){
         boolean state = false;
         for(int i = 0;i<10;i++){
-            state = false;
+            state = true;
             state = i>5 || state;
             System.out.println(state);
         }
